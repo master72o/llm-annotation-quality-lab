@@ -1,0 +1,47 @@
+{
+  "before_guidelines": {
+    "total_items": 20,
+    "total_annotations": 60,
+    "fleiss_kappa": -0.1123,
+    "krippendorff_alpha": -0.1031,
+    "raw_agreement_rate": 0.3,
+    "disagreement_rate": 0.7,
+    "accuracy_against_ground_truth": 0.5833,
+    "disagreements_by_domain": {
+      "Factual QA": 3,
+      "Math": 3,
+      "History": 2,
+      "Physics": 3,
+      "Astronomy": 1,
+      "Biology": 1,
+      "Art History": 1
+    },
+    "disagreements_by_category": {
+      "wrong_entity": 3,
+      "calculation_error": 1,
+      "imprecise_value": 1,
+      "wrong_number": 3,
+      "math_error": 2,
+      "attribution_error": 2,
+      "wrong_language": 1,
+      "unit_confusion": 1
+    }
+  },
+  "after_guidelines": {
+    "total_items": 20,
+    "total_annotations": 60,
+    "fleiss_kappa": 1.0,
+    "krippendorff_alpha": 1.0,
+    "raw_agreement_rate": 1.0,
+    "disagreement_rate": 0.0,
+    "accuracy_against_ground_truth": 1.0,
+    "disagreements_by_domain": {},
+    "disagreements_by_category": {}
+  },
+  "improvements": {
+    "delta_fleiss_kappa": 1.1123,
+    "delta_krippendorff_alpha": 1.1031,
+    "delta_raw_agreement_rate": 0.7,
+    "delta_accuracy_gt": 0.4167
+  }
+}
